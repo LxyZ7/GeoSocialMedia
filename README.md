@@ -1,3 +1,4 @@
 # GeoSocialMedia
 
-Introduction
+List of function names and descriptions:
+
