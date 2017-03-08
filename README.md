@@ -1,5 +1,7 @@
 # GeoSocialMedia
 
+# Open by vim if it is not shown correctlly
+
 # List of function names and descriptions:
 
 /***************************************************************
