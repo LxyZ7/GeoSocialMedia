@@ -1,8 +1,8 @@
-# GeoSocialMedia
+#GeoSocialMedia
 
-# Open by vim if it is not shown correctlly
+#Open by vim if it is shown incorrectlly
 
-# List of function names and descriptions:
+#List of function names and descriptions:
 
 /***************************************************************
 * Estimating home location of users:
@@ -11,8 +11,9 @@
 * Input: uid, the id of the user we want to estimate
 * network, the undiredted connections between user ids
 * userlist, locationlist, a vector of user ids and their
-* home location.
+* home location.  
 ***************************************************************/
+
 pair<double, double> homeLocation(string uid, vector<pair<string, string>>& network, vector<string> userlist, 
 	vector<pair<double, double>> locationlist);
 
@@ -24,8 +25,9 @@ pair<double, double> homeLocation(string uid, vector<pair<string, string>>& netw
 * Input: list of uids, the ids of the users we want to estimate
 * network, the undiredted connections between user ids
 * userlist, locationlist, a vector of user ids and their
-* home location.
+* home location.  
 ***************************************************************/
+
 vector<pair<double, double>> locationEstimation(vector<string> estimateuid, 
 	vector<pair<string, string>>& network, vector<string> userlist, vector<pair<double, double>> locationlist);
 
